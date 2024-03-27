@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1662638286 source:u:\c\sarasas\main.c
+	<stdio.h>
+	<stdlib.h>
+
