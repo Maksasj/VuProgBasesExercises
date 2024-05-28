@@ -24,8 +24,7 @@
 - 4612  -> 1204
 */
 
-char* decToBinary(int n)
-{
+char* decToBinary(int n) {
     int binary[32], i = 0;
 
     for(i = 0; n > 0; i++) {
@@ -42,7 +41,6 @@ char* decToBinary(int n)
 }
 
 int main(void) {
-
     // (2) -> (10)
     uintptr_t a1 = 0b0;
     printf("11011 -> %d \n", a1);

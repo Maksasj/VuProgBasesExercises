@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-
 typedef struct Student {
 	char name[30];
 	char surname[30];
@@ -112,8 +110,8 @@ void generate(int size){
 }
 
 int main(int argc, char *argv[]) {
-	
 	printf("This will generate db.bin in the current folder...\n");
+	
 	if (argc > 1){
 		int size = atoi(argv[1]);
 		if ((size >= 1000) || (size < 1)){
@@ -126,5 +124,6 @@ int main(int argc, char *argv[]) {
 		printf("Error! Please specify db size.\n");
 		printf("Usage: generator.exe size (replace size with actual value)\n");
 	}
+
 	return 0;	
 }

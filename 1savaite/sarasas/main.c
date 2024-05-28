@@ -11,7 +11,6 @@
 //    display values and occurence times in ascending order
 
 int main() {
-
    int inputArray[SIZE] = { 0 };
    int frequency[FREQ_SIZE] = { 0 };
    int diffNums[SIZE] = { 0 };
@@ -37,7 +36,7 @@ int main() {
       }
    }
 
-    printf("Data has been entered correctly \n");
+   printf("Data has been entered correctly \n");
 
    // proceeding to computations...
 

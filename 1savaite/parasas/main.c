@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     printf("Maksim, \nJaroslavcevas, \n1 Kursas, \n2 Grupe \n");
 
     printf("     []  ,----.___ \n");

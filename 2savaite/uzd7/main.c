@@ -41,8 +41,7 @@ int getDigitByIndex(int i, int index) {
     }
 }
 
-int lowestDigitIndex(int n)
-{
+int lowestDigitIndex(int n) {
     int s = 10;
     int l = countDigit(n);
     int p = 0;
